@@ -111,7 +111,6 @@ const PlanetInfo = ({ planetName }) => {
             <div className={styles.infoSection3}>
               {planet.diameter && (
                 <div className={styles.characteristicCard}>
-                  <span className={styles.characteristicIcon}>📏</span>
                   <span className={styles.characteristicLabel}>
                     {t("diameter")}
                   </span>
@@ -123,7 +122,7 @@ const PlanetInfo = ({ planetName }) => {
 
               {planet.mass && (
                 <div className={styles.characteristicCard}>
-                  <span className={styles.characteristicIcon}>⚖️</span>
+             
                   <span className={styles.characteristicLabel}>
                     {t("mass")}
                   </span>
@@ -135,7 +134,7 @@ const PlanetInfo = ({ planetName }) => {
 
               {planet.gravity && (
                 <div className={styles.characteristicCard}>
-                  <span className={styles.characteristicIcon}>🌍</span>
+            
                   <span className={styles.characteristicLabel}>
                     {t("gravity")}
                   </span>
@@ -147,7 +146,7 @@ const PlanetInfo = ({ planetName }) => {
 
               {planet.distance && (
                 <div className={styles.characteristicCard}>
-                  <span className={styles.characteristicIcon}>🌞</span>
+              
                   <span className={styles.characteristicLabel}>
                     {t("distance")}
                   </span>
@@ -159,7 +158,7 @@ const PlanetInfo = ({ planetName }) => {
 
               {planet.orbitalPeriod && (
                 <div className={styles.characteristicCard}>
-                  <span className={styles.characteristicIcon}>🔄</span>
+      
                   <span className={styles.characteristicLabel}>
                     {t("orbitalPeriod")}
                   </span>
@@ -171,7 +170,7 @@ const PlanetInfo = ({ planetName }) => {
 
               {planet.rotationPeriod && (
                 <div className={styles.characteristicCard}>
-                  <span className={styles.characteristicIcon}>🔃</span>
+        
                   <span className={styles.characteristicLabel}>
                     {t("rotationPeriod")}
                   </span>
@@ -183,7 +182,7 @@ const PlanetInfo = ({ planetName }) => {
 
               {planet.temperature && (
                 <div className={styles.characteristicCard}>
-                  <span className={styles.characteristicIcon}>🌡️</span>
+    
                   <span className={styles.characteristicLabel}>
                     {t("temperature")}
                   </span>
@@ -195,7 +194,7 @@ const PlanetInfo = ({ planetName }) => {
 
               {planet.moons && (
                 <div className={styles.characteristicCard}>
-                  <span className={styles.characteristicIcon}>🌙</span>
+         
                   <span className={styles.characteristicLabel}>
                     {t("moons")}
                   </span>
@@ -207,7 +206,6 @@ const PlanetInfo = ({ planetName }) => {
 
               {planet.atmosphere && (
                 <div className={styles.characteristicCard}>
-                  <span className={styles.characteristicIcon}>💨</span>
                   <span className={styles.characteristicLabel}>
                     {t("atmosphere")}
                   </span>
